@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-container{
+  width: 55%;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #ad9a6f;
+  padding: 26px 20px 26px 20px;
+}
+.container{
+  width: 100%;
+  margin: auto;
+  padding: 30px 30px 0 30px;
+  border:2px solid  #5ea3cc;
+  background-color: #fdfefe
+}
+.sub-container{
+  display: grid;
+  grid-template-columns: 43% 0 1fr;
+  column-gap: 40px;
+}
+.skill1,.skill2,.skill3,.skill4,.skill5,.skill6,.lang1,.lang2{
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  padding-bottom: 10px;
+}
+.skill-name,.lang-name{
+  position: relative;
+  bottom: 8px;
+}
+.marketing{
+  color: #d9f0f5;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 167px;
+  left: 223px;
+  padding: 5px;
+  transform: rotate(-90deg);
+  z-index: 1;
+  background-color: #0a88c7;
+  font-weight: bold;
+}
+.progressbar{
+  width: 100%;
+  height: 7px;
+  background-color: #ededed;
+}
+.fillprogress1{
+  height: 100%;
+  width: 60%;
+  background-color: #7d787e;
+}
+.fillprogress2{
+  height: 100%;
+  width: 80%;
+  background-color: #7d787e;
+}
+.fillprogress3{
+  height: 100%;
+  width: 90%;
+  background-color: #7d787e;
+}
+.fillprogress4{
+  height: 100%;
+  width: 50%;
+  background-color: #7d787e;
+}
+.fillprogress5{
+  height: 100%;
+  width: 90%;
+  background-color: #7d787e;
+}
+.fillprogress6{
+  height: 100%;
+  width: 95%;
+  background-color: #7d787e;
+}
+.heading-data{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  column-gap: 30px;
+}
+.img{
+  width: 64%;
+  height: 127px;
+  border-radius: 50%;
+  border: 2px solid #5ea3cc;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 2px;
+}
+.contact{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.phone,.web,.email,.location{
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  margin-bottom: 20px;
+}
+.heading-experience,.heading-award,.heading-skills,.heading-lang,.heading-education{
+  margin-top: 35px;
+  margin-bottom: 20px;
+  color: #5ea3cc;
+}
+.bold{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.expe1,.expe2,.award1,.award2,.education1{
+  margin-bottom: 30px;
+}
+.small-para{
+  margin-bottom: 10px;
+}
+hr{
+  border: 1px solid #5ea3cc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.profile-name{
+  font-size: 40px;
+  position: absolute;
+  top: 201px;
+  left: 355px;
+
+  /* position: relative;
+  top: 10px;
+  left: 10px; */
+}

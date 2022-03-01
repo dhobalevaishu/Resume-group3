@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  font-family:'Times New Roman', Times, serif;
+  width: 55%;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #d4d4d3;
+  padding: 0px 40px 0px 0;
+  font-size: 17px;
+  line-height: 20px;
+  display: grid;
+  grid-template-columns: 36% 1fr;
+  column-gap: 54px;
+}
+.heading-experience,.heading-education,.heading-contact,.heading-profile,.heading-expertise{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 25px;
+  /* color: red; */
+  font-size: 17px;
+  letter-spacing: 3px;
+}
+.heading-experience{
+  margin-bottom: 10px;
+}
+.bold{
+  font-family: Libre Franklin;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.bo{
+  margin-top: 8px;
+}
+.bo2{
+  margin-top: 30px;
+}
+.small-para{
+  margin-bottom: 8px;
+}
+.profile-para{
+  text-align:justify;
+  text-justify: inter-word;
+  word-spacing: -3px;
+}
+.small1-para{
+  margin-bottom: 10px;
+  margin-top: 6px;
+}
+.year{
+  position: relative;
+  top: 54px;
+  left: 319px;
+  display: inline-block;
+  font-weight: bold;
+}
+.img{
+  width: 63%;
+  height: 124px;
+  border-radius: 50%;
+  position: relative;
+  left: 37px;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.heading-contact,.heading-profile{
+  margin-top: 80px;
+}
+.contact{
+  font-weight: 500;
+}
+.heading-profile{
+  margin-top: 94.5px;
+}
+.f-name{
+  font-size:40px ;
+  font-family: Libre Franklin;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.name-para{
+  background-color: #d4d4d3;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  display: inline-block;
+  padding-right: 57px;
+  padding-left: 12px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-hr{
+  position: absolute;
+  top: 162px;
+  left: 336px;
+  /* border: 2px solid black; */
+  width: 672px;
+  display: inline-block;
+}
+.first-div{
+  text-align: center;
+  background-color: #f1f2f4;
+  padding: 30px 30px 30px 30px;
+}
+.second-div{
+  padding: 58px 0px 30px 0px;
+}
+.list-expert{
+  list-style: none;
+}
+.list{
+  padding-bottom: 8px;
+}
+.icon{
+  color: whitesmoke;
+  font-size: 13px;
+  background-color: #222121;
+  border-radius: 50%;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+.location,.phone1,.email1{
+  font-size: 15px;
+}
+.phone,.email{
+  margin-top: 20px;
+}
+/* .experience-paragraph1,.experience-paragraph2{
+  text-align: justify;
+} */
+.l-name{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.experience .long-para{
+  margin-bottom: 20px;
+}
+.experience .small-para{
+  font-weight: 600;
+}
+.experience-li{
+  margin-bottom: 10px;
+}
+.year2{
+  position: absolute;
+  top: 539px;
+  left: 927px;
+}

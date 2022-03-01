@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 55%;
+  height: auto;
+  margin: auto;
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 7px 2px #d4d4d3;
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  column-gap: 50px;
+  /* padding: 30px; */
+}
+.second-div{
+  display: grid;
+  grid-template-columns: 0 1fr;
+  column-gap: 50px;
+  padding-left: 20px;
+}
+/* design first-div  */
+.first-div{
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+}
+.heading-data{
+  background-color: #f7c001;
+  padding: 30px;
+}
+.big-para{
+  color: #e2ab06;
+  position: relative;
+  bottom: 26px;
+  font-size: 130px;
+  font-family: Libre Franklin;
+}
+.graphic,.web,.promming,.application,.app{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+}
+.graphic,.web,.promming,.application{
+  padding-bottom: 15px;
+}
+.heading-name{
+  font-size: 46px;
+  position: relative;
+  top: -98px;
+  left: 4px;
+  /* background-color: #f7c001; */
+  letter-spacing: -2px;
+  font-family: Libre Franklin;
+}
+
+
+.about{
+  background-color: #021325;
+  color: #e5f8f9;
+  padding: 100px 30px 30px 30px;
+}
+.phone,.email{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+}
+.name{
+  color: #f3c103;
+  margin-bottom: 7px;
+}
+.about,.experience,.education{
+  font-family: PT Serif;
+  font-size: 15px;
+}
+
+.heading-about,.heading-experience,.heading-education{
+  margin-bottom: 35px;
+  letter-spacing: 3px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bold{
+  font-weight: bold;
+  font-family: Libre Franklin;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 35px;
+  font-size: 14px;
+}
+.small-para{
+  background-color: #e8e5e8;
+  padding: 5px;
+  margin-top: 13px;
+  display: inline-block;
+}
+.heading-education{
+  margin-top: 51px;
+  margin-bottom: -10px;
+}
+.heading-education,.heading-experience{
+  text-decoration: underline;
+}
+.hr{
+  height: 877px;
+  position: relative;
+  top: 94px;  
+}
+.circle{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fafafc;
+  border: 1px solid black;
+  position: relative;
+  top: -8px;
+  left: -54px;
+  display: inline-block;
+}
+.year{
+  border: 2px solid black;
+  display: inline-block;
+  padding: 4px 17px 4px 17px;
+  transform: rotate(-90deg);
+  position: relative;
+  top: -37px;
+  right: 232px;
+  background-color: #fafafc;
+  z-index: 1;
+}
+span{
+  position: relative;
+  bottom: 12px;
+}
+.posts{
+  margin-top: 10px;
+  position: relative;
+  bottom: 98px;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: PT Serif;
+}
+.heading-experience{
+  position: relative;
+  top: 32px;
+  left: -63px;
+  margin-bottom: 65px;
+}
+.img{
+  width: 186px;
+  height: 187px;
+  position: absolute;
+  top: 414px;
+  left: 341px;
+  /* border-radius: 50%; */
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  /* border-radius: 50%; */
+}
+.heading-about{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}

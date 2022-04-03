@@ -56,16 +56,19 @@ body{
 .references{
   margin-top: 73px;
 }
-.contact1{
+.contact{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  column-gap: 20px;
+  grid-template-columns: repeat(2,1fr);
 }
 .phone,.email,.web{
   display: grid;
   grid-template-columns: 10% 1fr;
   column-gap: 20px;
   padding-bottom: 15px;
+}
+.first-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 .heading-work,.heading-education,.heading-skills,.heading-social,.heading-hobbies,.heading-references,.heading-languages,.heading-certi,.heading-projects{
   margin-top: 40px;

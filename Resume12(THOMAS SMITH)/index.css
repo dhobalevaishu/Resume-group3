@@ -18,8 +18,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  width: 750px;
+  margin: auto;
+  position: relative;
+}
 .container{
-  width: 55%;
+  width: 750px;
   height: auto;
   margin: auto;
   /* border: 2px solid black; */
@@ -27,6 +32,7 @@
   display: grid;
   grid-template-columns: 35% 1fr;
   column-gap: 50px;
+  font-size: 14px;
   /* padding: 30px; */
 }
 .second-div{
@@ -84,7 +90,7 @@
 }
 .about,.experience,.education{
   font-family: PT Serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .heading-about,.heading-experience,.heading-education{
@@ -114,6 +120,9 @@
 .heading-education,.heading-experience{
   text-decoration: underline;
 }
+h3{
+  font-size: 17px;
+}
 .hr{
   height: 877px;
   position: relative;
@@ -137,7 +146,7 @@
   transform: rotate(-90deg);
   position: relative;
   top: -37px;
-  right: 232px;
+  right: 222px;
   background-color: #fafafc;
   z-index: 1;
 }
@@ -149,7 +158,7 @@ span{
   margin-top: 10px;
   position: relative;
   bottom: 98px;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: bold;
   text-transform: capitalize;
   font-family: PT Serif;
@@ -165,7 +174,7 @@ span{
   height: 187px;
   position: absolute;
   top: 414px;
-  left: 341px;
+  left: 38px;
   /* border-radius: 50%; */
 }
 .img img{

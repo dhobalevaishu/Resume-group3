@@ -124,7 +124,7 @@ body{
   grid-template-columns: 20% 1fr;
   margin-bottom: 20px;
 }
-.heading-experience,.heading-award,.heading-skills,.heading-lang,.heading-education,.heading-projects,.heading-certi,.heading-references,.heading-social{
+.heading-experience,.heading-award,.heading-skills,.heading-lang,.heading-education,.heading-projects,.heading-certi,.heading-references{
   margin-top: 35px;
   margin-bottom: 20px;
   color: #2090d1;
@@ -150,7 +150,7 @@ hr{
 .profile-name{
   font-size: 40px;
   position: absolute;
-  top: 218px;
+  top: 194px;
   left: 52px;
 }
 
@@ -176,7 +176,7 @@ hr{
   top: 3px;
 }
 .social{
-  margin-top: -33px;
+  margin-top: 30px;
 }
 .insta,.facebook{
   padding-bottom: 5px;
